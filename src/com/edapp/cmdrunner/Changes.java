@@ -12,7 +12,7 @@
 # 5) V1.4-060220 | Edward | UI update, added Sa# 1) Ve-all button. Added tab to increase input from 10 to 20.
 # 6) V2.0-120220 | Edward | UI update, enhance performance and efficiency. 
 # 7) V2.1-140220 | Edward | Package update, enhance performance and efficiency. 
-# 8) V2.2-010320 | Edward | Implement cross platform feature between windows and linux.
+# 8) V2.2-010320 | Edward | Implement cross platform feature between Windows and Linux.
 ##############################################*/
 
 package com.edapp.cmdrunner;
