@@ -2,6 +2,7 @@
 # Author : Edward Lai
 # Project : CMDRunner
 ##############################################*/
+
 package com.edapp.cmdrunner;
 
 import java.io.BufferedReader;
@@ -22,15 +23,15 @@ public class Engine {
     private String userHome;
     private String userName;
     private String directory;
-    private boolean _debug = true;
+    private boolean _debug = false;
 
     public Engine() {
         //Perform initialization on the environment and update local variable
         initEnvironment();
     }
 
-    public void save(String command, String filename) {
-        try (final FileWriter fw = new FileWriter(new File(filename + ".RUNNER"))) {
+    public void save(String command, String file) {
+        try (final FileWriter fw = new FileWriter(new File(directory + file + ".RUNNER"))) {
             fw.write(command);
         } catch (IOException ex) {
         }
