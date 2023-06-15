@@ -353,7 +353,7 @@
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                   <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(&quot;CONF3.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField3.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
+                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(engine.getFilePath()+&quot;CONF3.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField3.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>
                 </Component>
@@ -384,7 +384,7 @@
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                   <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(&quot;CONF4.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField4.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
+                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(engine.getFilePath()+&quot;CONF4.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField4.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>
                 </Component>
@@ -415,7 +415,7 @@
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                   <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(&quot;CONF5.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField5.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
+                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(engine.getFilePath()+&quot;CONF5.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField5.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>
                 </Component>
@@ -446,7 +446,7 @@
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                   <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(&quot;CONF6.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField6.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
+                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(engine.getFilePath()+&quot;CONF6.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField6.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>
                 </Component>
@@ -477,7 +477,7 @@
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                   <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(&quot;CONF7.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField7.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
+                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(engine.getFilePath()+&quot;CONF7.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField7.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>
                 </Component>
@@ -508,7 +508,7 @@
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                   <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(&quot;CONF8.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField8.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
+                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(engine.getFilePath()+&quot;CONF8.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField8.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>
                 </Component>
@@ -539,7 +539,7 @@
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                   <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(&quot;CONF9.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField9.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
+                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(engine.getFilePath()+&quot;CONF9.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField9.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>
                 </Component>
@@ -570,7 +570,7 @@
                     <Property name="toolTipText" type="java.lang.String" value=""/>
                   </Properties>
                   <AuxValues>
-                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(&quot;CONF10.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField10.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
+                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(engine.getFilePath()+&quot;CONF10.RUNNER&quot;)));&#xa;    String data = br.readLine();&#xa;    jTextField10.setText(data);} &#xa;catch (Throwable t) { t.printStackTrace(); }"/>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>
                 </Component>
