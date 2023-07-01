@@ -1,4 +1,5 @@
 build/
-
+.idea
 dist/README.TXT
 nbproject/private/private.xml
+PROJ002_CMDRunner.iml
